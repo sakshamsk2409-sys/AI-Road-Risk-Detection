@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML models
+*.h5
+*.keras
+*.pt
+*.pth
+*.pkl
+
+# Datasets / large files
+data/raw/*
+test_videos/*
+*.mp4
+*.avi
+*.mov
+
+# Generated results
+results/*.png
+results/*.jpg
+
+# Environment / IDE
+.env
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
